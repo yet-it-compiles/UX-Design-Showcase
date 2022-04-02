@@ -86,3 +86,45 @@ body {
     padding-left: 875px;
 }
 
+/* Creating bottom panel */
+#home {
+    position: absolute;
+    padding-left: 400px;
+}
+
+#about {
+    position: absolute;
+    padding-bottom: 400px;
+    padding-left: 490px;
+}
+
+#services {
+    position: absolute;
+    padding-left: 580px;
+    padding-bottom: 1400px;
+}
+
+#portfolio {
+    position: absolute;
+    padding-left: 670px;
+}
+
+#testimonials {
+    position: absolute;
+    padding-left: 760px;
+}
+
+#blog {
+    position: absolute;
+    padding-left: 890px;
+}
+
+#contact_me {
+    position: absolute;
+    padding-left: 980px;
+}
+
+.bottom_panel {
+    padding-top: 100px;
+}
+
