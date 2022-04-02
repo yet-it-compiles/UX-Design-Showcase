@@ -2,6 +2,7 @@
 
 body {
     background-image: url(Images/background.png);
+    color: #FFFFFF;
 }
 
 /* Assigns wha the font will be for each element on the home page */
@@ -24,6 +25,7 @@ body {
 /* Assigns the font size of each element */
 #my_name {
     font-size: 40px;
+    color: #CACACA;
 }
 
 #my_title {
@@ -45,3 +47,42 @@ body {
 #quote_author {
     font-size: 16px;
 }
+
+/* Assigns the padding for each element */
+#my_name {
+    padding-left: 10px;
+}
+
+/* TODO : Figure out how to push the tag up higher */
+#my_title {
+    position: relative;
+    padding-left: 50px;
+}
+
+#follow_me {
+    position: absolute;
+    -webkit-transform: rotate(-270deg);
+    padding-top: 150px;
+}
+
+#welcome {
+    position: relative;
+    padding-top: 350px;
+    padding-left: 500px;
+}
+
+#intro {
+    position: relative;
+    padding-left: 420px;
+}
+
+#quote_body {
+    position: relative;
+    padding-left: 550px;
+}
+
+#quote_author {
+    position: relative;
+    padding-left: 875px;
+}
+
