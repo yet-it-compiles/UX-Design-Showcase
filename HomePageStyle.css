@@ -2,7 +2,12 @@
 
 body {
     background-image: url(Images/background.png);
-    color: #FFFFFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: white;
 }
 
 /* Assigns wha the font will be for each element on the home page */
@@ -128,3 +133,12 @@ body {
     padding-top: 100px;
 }
 
+/* Creating right-size panel */
+.right_pane_panel {
+    position: relative;
+}
+
+#currently_reading {
+    padding-left: 1750px;
+    padding-bottom: 800px;
+}
