@@ -4,3 +4,5 @@
 
 ## About The Project
 This is the source code to my personal website that is currently under development. The site will be used to showcase my exprience as a developer, along with different links to learn more about myself, services I offer, along with testimonials of those I have developed for.
+
+## Upcoming Project Plans
