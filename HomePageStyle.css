@@ -3,3 +3,45 @@
 body {
     background-image: url(Images/background.png);
 }
+
+/* Assigns wha the font will be for each element on the home page */
+#my_name, #follow_me, #quote_body, #quote_author, .bottom_panel, .right_pane_panel{
+    font-family: "Josefin Slab", serif;
+}
+
+#welcome {
+    font-family: "Georgia", serif;
+}
+
+#intro {
+    font-family: "Alegreya SC", serif;
+}
+
+#my_title {
+    font-family: "Jua", serif;
+}
+
+/* Assigns the font size of each element */
+#my_name {
+    font-size: 40px;
+}
+
+#my_title {
+    font-size: 20px;
+}
+
+#follow_me, #welcome {
+    font-size: 46px;
+}
+
+#intro {
+    font-size: 36px;
+}
+
+#quote_body, .bottom_panel, .right_pane_panel {
+    font-size: 20px;
+}
+
+#quote_author {
+    font-size: 16px;
+}
