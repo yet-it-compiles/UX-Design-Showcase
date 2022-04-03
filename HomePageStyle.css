@@ -1,65 +1,26 @@
 /* Home Page Font Styling module */
 
 body {
-    background-image: url(Images/background.png);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: url(Images/background.png);
     background-size: cover;
-
     color: white;
 }
 
 /* Assigns wha the font will be for each element on the home page */
-#my_name, #follow_me, #quote_body, #quote_author, .bottom_panel, .right_pane_panel{
+#my_name, #follow_me, #quote_body, #quote_author, .bottom_panel, .right_pane_panel {
     font-family: "Josefin Slab", serif;
 }
 
-#welcome {
-    font-family: "Georgia", serif;
-}
-
-#intro {
-    font-family: "Alegreya SC", serif;
-}
-
-#my_title {
-    font-family: "Jua", serif;
-}
-
-/* Assigns the font size of each element */
 #my_name {
     font-size: 40px;
     color: #CACACA;
-}
-
-#my_title {
-    font-size: 20px;
-}
-
-#follow_me, #welcome {
-    font-size: 46px;
-}
-
-#intro {
-    font-size: 36px;
-}
-
-#quote_body, .bottom_panel, .right_pane_panel {
-    font-size: 20px;
-}
-
-#quote_author {
-    font-size: 16px;
-}
-
-/* Assigns the padding for each element */
-#my_name {
     padding-left: 10px;
 }
 
-/* TODO : Figure out how to push the tag up higher */
 #my_title {
+    font-size: 20px;
+    font-family: "Jua", serif;
+
     position: relative;
     padding-left: 50px;
 }
@@ -68,12 +29,64 @@ body {
     position: absolute;
     -webkit-transform: rotate(-270deg);
     padding-top: 150px;
+    font-size: 46px;
 }
 
 #welcome {
-    position: relative;
-    padding-top: 350px;
-    padding-left: 500px;
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 601px;
+    top: 509px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 52px;
+
+}
+
+#intro {
+    font-family: 'Alegreya SC', serif;
+
+    position: absolute;
+    width: 527px;
+    height: 49px;
+    left: 60px;
+    top: 460px;
+
+    font-size: 36px;
+}
+
+#quote_body, .bottom_panel, .right_pane_panel {
+    font-family: 'Josefin Slab', serif;
+    
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    left: 648px;
+    top: 699px;
+
+    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#quote_author {
+    position: absolute;
+    width: 112px;
+    height: 16px;
+    left: 1009px;
+    top: 729px;
+
+    font-family: 'Josefin Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
 }
 
 #intro {
@@ -81,64 +94,3 @@ body {
     padding-left: 420px;
 }
 
-#quote_body {
-    position: relative;
-    padding-left: 550px;
-}
-
-#quote_author {
-    position: relative;
-    padding-left: 875px;
-}
-
-/* Creating bottom panel */
-#home {
-    position: absolute;
-    padding-left: 400px;
-}
-
-#about {
-    position: absolute;
-    padding-bottom: 400px;
-    padding-left: 490px;
-}
-
-#services {
-    position: absolute;
-    padding-left: 580px;
-    padding-bottom: 1400px;
-}
-
-#portfolio {
-    position: absolute;
-    padding-left: 670px;
-}
-
-#testimonials {
-    position: absolute;
-    padding-left: 760px;
-}
-
-#blog {
-    position: absolute;
-    padding-left: 890px;
-}
-
-#contact_me {
-    position: absolute;
-    padding-left: 980px;
-}
-
-.bottom_panel {
-    padding-top: 100px;
-}
-
-/* Creating right-size panel */
-.right_pane_panel {
-    position: relative;
-}
-
-#currently_reading {
-    padding-left: 1750px;
-    padding-bottom: 800px;
-}
