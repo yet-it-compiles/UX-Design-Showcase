@@ -6,7 +6,7 @@ body {
 }
 
 /* Assigns wha the font will be for each element on the home page */
-#my_name, #follow_me, #quote_body, #quote_author, .bottom_panel, .right_pane_panel {
+#my_name, #follow_me, #quote_body, #quote_author {
     font-family: josefin-slab,serif;
     font-weight: 700;
     font-style: normal;
@@ -37,8 +37,7 @@ body {
 
 #follow_me {
     width: 215px;
-    left: 53px;
-    top: 169px;
+    padding-bottom: 169px;
 
     font-family: "Josefin Slab", serif;
     font-weight: 400;
@@ -63,7 +62,7 @@ body {
 
 #intro {
     position: absolute;
-    width: 433px;
+    width: 535px;
     height: 49px;
     left: 510px;
     top: 596px;
@@ -88,6 +87,95 @@ body {
     font-size: 20px;
     line-height: 20px;
 }
+
+#quote_author {
+    position: absolute;
+    width: 117px;
+    height: 16px;
+    left: 1009px;
+    top: 729px;
+
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.bottom_panel {
+    position: absolute;
+
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
+#home {
+    position: absolute;
+
+    width: 52px;
+    height: 20px;
+    left: 689px;
+    top: 994px;
+}
+
+#about {
+    position: absolute;
+
+    width: 56px;
+    height: 20px;
+    left: 779px;
+    top: 994px;
+}
+
+#services {
+    position: absolute;
+
+    width: 69px;
+    height: 20px;
+    left: 873px;
+    top: 994px;
+}
+
+#portfolio {
+    position: absolute;
+
+    width: 73px;
+    height: 20px;
+    left: 980px;
+    top: 994px;
+}
+
+#testimonials {
+    position: absolute;
+
+    width: 110px;
+    height: 15px;
+    left: 1091px;
+    top: 994px;
+}
+
+#blog {
+    position: absolute;
+
+    width: 40px;
+    height: 15px;
+    left: 1239px;
+    top: 994px;
+}
+
+#contact_me {
+    position: absolute;
+
+    width: 103px;
+    height: 15px;
+    left: 1317px;
+    top: 994px;
+}
+
 
 
 
