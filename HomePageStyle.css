@@ -14,7 +14,7 @@ body {
 
 #my_name {
     width: 315px;
-    color: white;
+    color: hsl(0, 0%, 79%);
 
     font-family: "Josefin Slab", serif;
     font-weight: 700;
@@ -36,14 +36,20 @@ body {
 }
 
 #follow_me {
-    width: 215px;
-    padding-bottom: 169px;
+    position: absolute;
+    width: 211px;
+    height: 37px;
+    left: -75px;
+    top: 300px;
 
-    font-family: "Josefin Slab", serif;
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
     font-weight: 400;
     font-size: 46px;
+    line-height: 46px;
 
-    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+
 }
 
 #welcome {
