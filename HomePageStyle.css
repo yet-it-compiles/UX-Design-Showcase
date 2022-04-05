@@ -35,6 +35,60 @@ body {
     line-height: 25px;
 }
 
+#follow_me {
+    width: 215px;
+    left: 53px;
+    top: 169px;
+
+    font-family: "Josefin Slab", serif;
+    font-weight: 400;
+    font-size: 46px;
+
+    -webkit-transform: rotate(-90deg);
+}
+
+#welcome {
+    position: absolute;
+    width: 221px;
+    height: 42px;
+    left: 601px;
+    top: 509px;
+
+    font-family: 'Georgia', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 52px;
+}
+
+#intro {
+    position: absolute;
+    width: 433px;
+    height: 49px;
+    left: 510px;
+    top: 596px;
+
+    font-family: 'Alegreya SC', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+#quote_body {
+    position: absolute;
+    width: 350px;
+    height: 20px;
+    left: 648px;
+    top: 699px;
+
+    font-family: 'Josefin Slab', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+}
+
 
 
 
