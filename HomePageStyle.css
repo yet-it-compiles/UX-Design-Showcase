@@ -1,8 +1,19 @@
 /* Home Page Font Styling module */
 
 body {
-    background-image: url("Images/background.png");
     color: white;
+}
+
+#background {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 /* Assigns wha the font will be for each element on the home page */
@@ -56,7 +67,7 @@ body {
     position: absolute;
     width: 221px;
     height: 42px;
-    left: 601px;
+    left: 42.5%;
     top: 509px;
 
     font-family: 'Georgia', serif;
@@ -70,7 +81,7 @@ body {
     position: absolute;
     width: 535px;
     height: 49px;
-    left: 510px;
+    left: 37.5%;
     top: 596px;
 
     font-family: 'Alegreya SC', serif;
@@ -84,7 +95,7 @@ body {
     position: absolute;
     width: 350px;
     height: 20px;
-    left: 648px;
+    left: 44.5%;
     top: 699px;
 
     font-family: 'Josefin Slab', serif;
@@ -98,7 +109,7 @@ body {
     position: absolute;
     width: 117px;
     height: 16px;
-    left: 1009px;
+    left: 60.5%;
     top: 729px;
 
     font-family: 'Josefin Slab', serif;
@@ -125,7 +136,7 @@ body {
     width: 52px;
     height: 20px;
     left: 689px;
-    top: 994px;
+    top: 95%;
 }
 
 #about {
@@ -134,7 +145,7 @@ body {
     width: 56px;
     height: 20px;
     left: 779px;
-    top: 994px;
+    top: 95%;
 }
 
 #services {
@@ -143,7 +154,7 @@ body {
     width: 69px;
     height: 20px;
     left: 873px;
-    top: 994px;
+    top: 95%;
 }
 
 #portfolio {
@@ -152,7 +163,7 @@ body {
     width: 73px;
     height: 20px;
     left: 980px;
-    top: 994px;
+    top: 95%;
 }
 
 #testimonials {
@@ -161,7 +172,7 @@ body {
     width: 110px;
     height: 15px;
     left: 1091px;
-    top: 994px;
+    top: 95%;
 }
 
 #blog {
@@ -170,7 +181,7 @@ body {
     width: 40px;
     height: 15px;
     left: 1239px;
-    top: 994px;
+    top: 95%;
 }
 
 #contact_me {
@@ -179,7 +190,7 @@ body {
     width: 103px;
     height: 15px;
     left: 1317px;
-    top: 994px;
+    top: 95%;
 }
 
 
