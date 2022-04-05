@@ -1,96 +1,41 @@
 /* Home Page Font Styling module */
 
 body {
-    background: url(Images/background.png);
-    background-size: cover;
+    background-image: url("Images/background.png");
     color: white;
 }
 
 /* Assigns wha the font will be for each element on the home page */
 #my_name, #follow_me, #quote_body, #quote_author, .bottom_panel, .right_pane_panel {
-    font-family: "Josefin Slab", serif;
+    font-family: josefin-slab,serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 #my_name {
+    width: 315px;
+    color: white;
+
+    font-family: "Josefin Slab", serif;
+    font-weight: 700;
     font-size: 40px;
-    color: #CACACA;
-    padding-left: 10px;
 }
 
 #my_title {
-    font-size: 20px;
-    font-family: "Jua", serif;
-
-    position: relative;
-    padding-left: 50px;
-}
-
-#follow_me {
     position: absolute;
-    -webkit-transform: rotate(-270deg);
-    padding-top: 150px;
-    font-size: 46px;
-}
-
-#welcome {
-    position: absolute;
-    width: 221px;
-    height: 42px;
-    left: 601px;
-    top: 509px;
-
-    font-family: 'Georgia';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 46px;
-    line-height: 52px;
-
-}
-
-#intro {
-    font-family: 'Alegreya SC', serif;
-
-    position: absolute;
-    width: 527px;
-    height: 49px;
-    left: 60px;
-    top: 460px;
-
-    font-size: 36px;
-}
-
-#quote_body, .bottom_panel, .right_pane_panel {
-    font-family: 'Josefin Slab', serif;
-    
-    position: absolute;
-    width: 350px;
+    width: 292px;
     height: 20px;
-    left: 648px;
-    top: 699px;
+    left: 67px;
+    top: 62px;
 
-    
+    font-family: 'Jua', serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 25px;
 }
 
-#quote_author {
-    position: absolute;
-    width: 112px;
-    height: 16px;
-    left: 1009px;
-    top: 729px;
 
-    font-family: 'Josefin Slab';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 16px;
-}
 
-#intro {
-    position: relative;
-    padding-left: 420px;
-}
+
 
